@@ -1,0 +1,53 @@
+.image_inside {
+    object-fit: cover;
+    height: 250px;
+}
+
+.highlighted_section_green {
+    border: 2px green dashed;
+}
+
+.highlighted_section_red {
+    border: 2px red dashed;
+}
+
+.info_container {
+    margin-top: 2rem;
+}
+
+.accordion-green:not(.collapsed) {
+    background-color: green !important;
+    color: white;
+}
+
+.accordion-red:not(.collapsed) {
+    background-color: red !important;
+    color: white;
+}
+
+.custom-plot {
+    margin: auto;
+}
+
+
+.whole-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+
+
+
+.kpi {
+    font-size: xxx-large;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #263238;
+}
+
+.kpi-label {
+    font-size: x-large;
+    color: #263238;
+}
